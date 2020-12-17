@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005:  'APIENTRY': redefinición de macro
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\common\thirdparty\glfw\include\GLFW\glfw3.h(92): message :  vea la definición anterior de 'APIENTRY'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(39,32): warning C4305:  'inicializando': truncamiento de 'double' a 'float'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(140,143): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(141,114): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(142,140): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(232,13): warning C4244:  'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(294,82): warning C4244:  '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(294,82): warning C4244:         with
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(294,82): warning C4244:         [
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(294,82): warning C4244:             T=float
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(294,82): warning C4244:         ]
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(339,152): warning C4244:  'argumento': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(493,170): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(496,152): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(501,119): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(502,119): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(503,119): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(509,163): warning C4305:  'argumento': truncamiento de 'double' a 'GLfloat'
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(531,49): warning C4244:  '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(531,49): warning C4244:         with
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(531,49): warning C4244:         [
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(531,49): warning C4244:             T=float
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(531,49): warning C4244:         ]
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(669,18): warning C4244:  'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(670,18): warning C4244:  'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(681,31): warning C4244:  '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(935,23): warning C4244:  '=': conversión de 'const int' a 'T'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(935,23): warning C4244:         with
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(935,23): warning C4244:         [
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(935,23): warning C4244:             T=float
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(935,23): warning C4244:         ]
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(936,23): warning C4244:  '=': conversión de 'const int' a 'T'; posible pérdida de datos
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(936,23): warning C4244:         with
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(936,23): warning C4244:         [
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(936,23): warning C4244:             T=float
+C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\GC1\main.cpp(936,23): warning C4244:         ]
+  GC1.vcxproj -> C:\Users\geraa\OneDrive\Escritorio\Plantilla GC1\Debug\GC1.exe
