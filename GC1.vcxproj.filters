@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{94d17e67-cc54-435d-ac90-b03d77f8c0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\colisions">
+      <UniqueIdentifier>{d40f7e2f-181f-4de7-a526-123f35003826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\colisions">
+      <UniqueIdentifier>{a7919471-39b8-4ddf-a6fd-811675377144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\importer">
+      <UniqueIdentifier>{fa690d08-08db-4a96-bf6d-83367d83e139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\importer">
+      <UniqueIdentifier>{70270284-59bd-4e4a-a445-67cbc5af52b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extras">
+      <UniqueIdentifier>{e7cbfe84-3942-416e-89db-9f3a73089c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extras">
+      <UniqueIdentifier>{c4e26e9b-42a0-4a99-843b-8c42d0ae7200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\environment">
+      <UniqueIdentifier>{0809761f-9408-4046-829d-487985a281c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\environment">
+      <UniqueIdentifier>{dc46150f-ed2b-4442-9e13-00c17f89d1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\primitives">
+      <UniqueIdentifier>{5b83f3ba-9d08-40fd-ac7c-ab8eb63fa733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\primitives">
+      <UniqueIdentifier>{0a748203-0594-4dd6-ae5c-f473d9e7155f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\platforms\windows\platform_windows.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\thirdparty\glew\src\glew.c">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="axisalignedboundingbox.cpp">
+      <Filter>Source Files\colisions</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingpoint.cpp">
+      <Filter>Source Files\colisions</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingsphere.cpp">
+      <Filter>Source Files\colisions</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Source Files\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>Source Files\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\importer</Filter>
+    </ClCompile>
+    <ClCompile Include="collider.cpp">
+      <Filter>Source Files\colisions</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="heightMesh.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>Source Files\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="quad.cpp">
+      <Filter>Source Files\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>Source Files\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Source Files\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="tdogl\Texture.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="tdogl\Bitmap.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="tdogl\Camera.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="tdogl\Program.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+    <ClCompile Include="tdogl\Shader.cpp">
+      <Filter>Source Files\extras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="axisalignedboundingbox.h">
+      <Filter>Header Files\colisions</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingpoint.h">
+      <Filter>Header Files\colisions</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingsphere.h">
+      <Filter>Header Files\colisions</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Header Files\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Header Files\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\importer</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Header Files\colisions</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="heightMesh.h">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>Header Files\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="quad.h">
+      <Filter>Header Files\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Header Files\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Header Files\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="tdogl\Bitmap.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="tdogl\Camera.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="tdogl\Program.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="tdogl\Shader.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+    <ClInclude Include="tdogl\Texture.h">
+      <Filter>Header Files\extras</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\gui.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\gui.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\mesh.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\mesh.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\height.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\water.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\terrain.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
